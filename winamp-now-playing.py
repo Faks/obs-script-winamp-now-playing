@@ -9,7 +9,7 @@ class WinampPlayer:
     def __init__(self):
         self.window_title = 'Winamp'
         self.text_source_name = 'Winamp: Now Playing'
-        self.no_song_text = 'No song is playing'
+        self.no_song_text = ''
         self.song_status_patterns = [
             r'\bBuild\b',
             r'\bStopped\b'
